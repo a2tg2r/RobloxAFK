@@ -4,7 +4,7 @@ import time
 import os
 
 # Load Roblox accounts from Excel
-data = pd.read_excel('RobloxAccountsTest.xlsx')  # Ensure this file is in the same directory
+data = pd.read_excel('AdjustedRobloxAccounts.xlsx')  # Ensure this file is in the same directory
 usernames = data['names'].tolist()
 passwords = data['passwords'].tolist()
 
